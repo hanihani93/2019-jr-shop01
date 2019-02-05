@@ -1,0 +1,20 @@
+{
+	"lefts":[
+		{"name":"ALL"},
+		{"name":"제품 유형별"},
+		{"name":"제품 라인별"},
+		{"name":"제품 품목별"},
+		{"name":"피부 타입별"},
+		{"name":"피부 고민별"},
+		{"name":"연령대별 제품"},
+		{"name":"BEST"},
+		{"name":"HOTDEAL"},
+		{"name":"NEW"},
+		{"name":"MAKE UP"},
+		{"name":"SKIN CARE"},
+		{"name":"KIDS & BABY"},
+		{"name":"MENS"},
+		{"name":"EVENT"},
+		{"name":"POMOTION"}
+	]
+}

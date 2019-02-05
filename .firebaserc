@@ -1,6 +1,5 @@
 {
   "projects": {
-    "shop01": "shop01",
-    "default": "shop01"
+    "shop01": "shop01"
   }
 }

@@ -1,0 +1,134 @@
+{
+	"cate": "woman",
+	"all":{
+		"latest":[
+			{
+				"tit": "그린티 씨드 아이크림 30mL",
+				"img1": "../img/green01.png",
+				"img2": "../img/green01_1.jpg",
+				"star": 3,
+				"price": "<span>22,000 원</span>",
+				"sale": true,
+				"hot": false,
+				"link": "../test/test.html",
+				"target": "_blank"
+			},{
+				"tit": "그린티 모닝 클렌저 150mL",
+				"img1": "../img/green02.png",
+				"img2": "../img/green02_1.jpg",
+				"star": 4,
+				"price": "<span>10,000 원</span>",
+				"sale": false,
+				"hot": true,
+				"link": "../test/test.html",
+				"target": "_blank"
+			},{
+				"tit": "그린티 클렌징 젤 투 폼 150mL",
+				"img1": "../img/green03.png",
+				"img2": "../img/green03_1.jpg",
+				"star": 3,
+				"price": "<span class=\"del_price\">15,000원</span> <span>13,000원</span>",
+				"sale": true,
+				"hot": true,
+				"link": "../test/test.html",
+				"target": "_blank"
+			},{
+				"tit": "그린티 씨드 세럼 80mL",
+				"img1": "../img/green04.png",
+				"img2": "../img/green04_1.jpg",
+				"star": 5,
+				"price": "<span>24,000 원</span>",
+				"sale": false,
+				"hot": false,
+				"link": "../test/test.html",
+				"target": "_blank"
+			}
+		], 
+		"top":[
+			{
+				"tit": "트루케어 판테놀 10 수분 스킨 250mL",
+				"img1": "../img/T_01.png",
+				"img2": "../img/T01_1.jpg",
+				"star": 5,
+				"price": "<span>18,000 원</span>",
+				"sale": false,
+				"hot": false,
+				"link": "../test/test.html",
+				"target": "_blank"
+			},{
+				"tit": "트루케어 칼라민 6.5 클렌저",
+				"img1": "../img/T_02.png",
+				"img2": "../img/T02_2.jpg",
+				"star": 3,
+				"price": "<span>20,000 원</span>",
+				"sale": true,
+				"hot": false,
+				"link": "../test/test.html",
+				"target": "_blank"
+			},{
+				"tit": "트루케어 PHA 토너 패드 130g",
+				"img1": "../img/T_03.png",
+				"img2": "../img/T03_3.jpg",
+				"star": 3,
+				"price": "<span>19,000 원</span>",
+				"sale": true,
+				"hot": true,
+				"link": "../test/test.html",
+				"target": "_blank"
+			},{
+				"tit": "트루케어 시카 AA 트리트먼트 크림 50mL",
+				"img1": "../img/T_04.png",
+				"img2": "../img/T04_1.jpg",
+				"star": 4,
+				"price": "<span class=\"del_price\">25,000원</span> <span>20,000 원</span>",
+				"sale": false,
+				"hot": true,
+				"link": "../test/test.html",
+				"target": "_blank"
+			}
+		], 
+		"best":[
+			{
+				"tit": "슈퍼푸드 블루베리 선크림 SPF37 PA+++ 40mL",
+				"img1": "../img/sp01.png",
+				"img2": "../img/sp01_1.jpg",
+				"star": 4,
+				"price": "<span>9,000 원</span>",
+				"sale": false,
+				"hot": true,
+				"link": "../test/test.html",
+				"target": "_blank"
+			},{
+				"tit": "블루베리 리밸런싱 클렌징 워터 200mL",
+				"img1": "../img/sp02.png",
+				"img2": "../img/sp02.jpg",
+				"star": 3,
+				"price": "<span>8,000 원</span>",
+				"sale": true,
+				"hot": false,
+				"link": "../test/test.html",
+				"target": "_blank"
+			},{
+				"tit": "블루베리 리밸런싱 5.5 클렌저 100mL",
+				"img1": "../img/sp03.png",
+				"img2": "../img/sp03_1.jpg",
+				"star": 5,
+				"price": "<span>5,000 원</span>",
+				"sale": false,
+				"hot": false,
+				"link": "../test/test.html",
+				"target": "_blank"
+			},{
+				"tit": "블루베리 리밸런싱 스킨 350mL",
+				"img1": "../img/sp04.png",
+				"img2": "../img/sp04_1.jpg",
+				"star": 3,
+				"price": "<span>14,000 원</span>",
+				"sale": true,
+				"hot": true,
+				"link": "../test/test.html",
+				"target": "_blank"
+			}
+		]
+	}
+}

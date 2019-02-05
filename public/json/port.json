@@ -1,0 +1,19 @@
+{
+	"ports":[{
+		"name":"MEMBERSHIP",
+		"link":"../test/test.html",
+		"target":"_self"
+	},{
+		"name":"멤버쉽등급",
+		"link":"../test/test.html",
+		"target":"_self"
+	},{
+		"name":"씨드안내/스토어",
+		"link":"../test/test.html",
+		"target":"_self"
+	},{
+		"name":"프라임키드 신청",
+		"link":"../test/test.html",
+		"target":"_self"
+	}]
+}

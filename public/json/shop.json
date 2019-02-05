@@ -1,0 +1,146 @@
+{
+	"cates": [
+		{
+			"tit": "유형별 제품",
+			"data": [
+				{
+					"name": "스킨 케어",
+					"link": "../test/test.html",
+					"target": "_self"
+				},
+				{
+					"name": "페이스",
+					"link": "../test/test.html",
+					"target": "_self"
+				},
+				{
+					"name": "컬러",
+					"link": "../test/test.html",
+					"target": "_self"
+				},
+				{
+					"name": "클렌징",
+					"link": "../test/test.html",
+					"target": "_self"
+				},
+				{
+					"name": "바디",
+					"link": "../test/test.html",
+					"target": "_self"
+				}
+			]
+		},
+		{
+			"tit": "라인별 제품",
+			"data": [
+				{
+					"name": "그린티",
+					"link": "../test/test.html",
+					"target": "_self"
+				},
+				{
+					"name": "트루 케어",
+					"link": "../test/test.html",
+					"target": "_self"
+				},
+				{
+					"name": "한란",
+					"link": "../test/test.html",
+					"target": "_self"
+				},
+				{
+					"name": "화산송이",
+					"link": "../test/test.html",
+					"target": "_self"
+				},
+				{
+					"name": "슈퍼푸드",
+					"link": "../test/test.html",
+					"target": "_self"
+				},
+				{
+					"name": "진저허니",
+					"link": "../test/test.html",
+					"target": "_self"
+				},
+				{
+					"name": "아토수딩",
+					"link": "../test/test.html",
+					"target": "_self"
+				},
+				{
+					"name": "비자",
+					"link": "../test/test.html",
+					"target": "_self"
+				}
+			]
+		},
+		{
+			"tit": "고민별 제품",
+			"data": [
+				{
+					"name": "수분/보습",
+					"link": "../test/test.html",
+					"target": "_self"
+				},
+				{
+					"name": "진정",
+					"link": "../test/test.html",
+					"target": "_self"
+				},
+				{
+					"name": "트러블",
+					"link": "../test/test.html",
+					"target": "_self"
+				},
+				{
+					"name": "모공",
+					"link": "../test/test.html",
+					"target": "_self"
+				}
+			]
+		},
+		{
+			"tit": "테마별 제품",
+			"data": [
+				{
+					"name": "NEW",
+					"link": "../test/test.html",
+					"target": "_self"
+				},
+				{
+					"name": "BEST",
+					"link": "../test/test.html",
+					"target": "_self"
+				},
+				{
+					"name": "ONLINE ONLY",
+					"link": "../test/test.html",
+					"target": "_self"
+				},
+				{
+					"name": "SALE",
+					"link": "../test/test.html",
+					"target": "_self"
+				}
+			]
+		}
+	],
+	"prds": [
+		{
+			"src": "../img/tm_1.jpg",
+			"link": "../test/test.html",
+			"target": "_blank"
+		},
+		{
+			"src": "../img/tm_2.jpg",
+			"link": "../test/test.html",
+			"target": "_blank"
+		},
+		{
+			"src": "../img/tm_3.jpg",
+			"link": "../test/test.html",
+			"target": "_blank"
+		}
+	]
+}

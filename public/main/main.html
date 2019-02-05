@@ -16,25 +16,26 @@
 	<script src="../js/imagesloaded.pkgd.min.js"></script>
 	<script src="../js/masonry.pkgd.min.js"></script>
 	<script src="../js/bootstrap.min.js"></script>
+	<script src="../js/jquery.touchSwipe.min.js"></script>
+	<!--script src="../js/jquery.cycle2.min.js"></script-->
 </head>
+
 <body>
 	<!-- 상단 네비 / top_navs -->
 	<div class="top_navs wrap clear">
 		<div class="logo"><img src="../img/logo.png"></div>
 		<ul class="top_nav">
 			<li class="top_icon">
-				<img src="../img/icon-1.png" class="fl">
-				<span class="fl">FREE DELIVERY<br>
-					FROM $ 250</span>
+				
+				<span >JOIN</span>
 			</li>
 			<li class="top_icon">
-				<img src="../img/icon-2.png" class="fl">
-				<span class="fl">MONEY BACK<br>
-					GUARANTEED</span>
+				
+				<span >LOGIN</span>
 			</li>
 			<li>
 				<span class="w3-badge w3-light-grey">0</span>
-				<span class="fa fa-shopping-bag"></span> CART
+				<span class="fa fa-shopping-bag"></span>CART
 			</li>
 			<li>
 				<span class="fa fa-bars"></span>
@@ -44,24 +45,303 @@
 	<!-- 메인 네비 / navs -->
 	<div class="navs">
 		<ul class="wrap clear">
-			<li class="nav">HOME</li>
-			<li class="nav">SHOP</li>
-			<li class="nav">BLOG</li>
-			<li class="nav">PORTFOLIO</li>
-			<li class="nav">CONTACT</li>		
+			<li class="nav rel">BRAND<ul class="nav_sub clear"></ul>
+			</li>
+			<li class="nav">PRODUCT <ul class="nav_sub clear"></ul>
+			</li>
+			<li class="nav">EVENT
+				<ul class="nav_sub blogs clear">
+					<li class="grid"></li>
+					<li>
+						<img src="../img/event1.jpg" class="img" >
+						<img src="../img/event2.jpg" class="img">
+					</li>
+				</ul>
+			</li>
+			<li class="nav rel">MEMBERSHIP
+				<ul class="nav_sub clear"></ul>
+			</li>
+			<li class="nav">COLLECTION</li>
 			<li class="search">
 				<input type="text" name="search" class="in_search" placeholder="search">
 				<span class="fa fa-search"></span>
-			</li>		
+			</li>
 		</ul>
 	</div>
+	<!-- 메인 배너 및 좌측 네비 / mains -->
+	<ul class="mains wrap clear">
+		<li class="lefts">
+			<ul class="left"></ul>
+		</li>
+		<li class="bans">
+			<ul class="ban">
+				<li>
+					<img src="../img/main01.jpg" class="img">
+					<div class="aniset" data-ani="leftShow" data-speed="1s" data-delay="0s"></div>
+					<div class="aniset" data-ani="leftShow" data-speed="1s" data-delay="0.5s"></div>
+				</li>
+				<li>
+					<img src="../img/main02.jpg" class="img">
+					<div class="aniset" data-ani="leftShow" data-speed="1s" data-delay="0s"></div>
+				</li>
+				<li>
+					<img src="../img/main03.jpg" class="img">
+					<div class="aniset" data-ani="leftShow" data-speed="1s" data-delay="0s"></div>
+				</li>
+			</ul>
+			<div class="cycle-pager"></div>
+			<!--ul class="ban cycle-slideshow" data-cycle-fx="scrollHorz" data-cycle-timeout="3000" data-cycle-slides="> li" data-pause-on-hover="true" data-cycle-speed="500">
+				<div class="cycle-pager"></div>
+				<li><img src="../img/slider-7.jpg" class="img"></li>
+				<li><img src="../img/slider-8.jpg" class="img"></li>
+				<li><img src="../img/slider-12.jpg" class="img"></li>
+			</ul-->
+		</li>
+	</ul>
+	<!-- 대표상품 / .favs -->
+	<ul class="favs wrap clear">
+		<li class="fav hov_ani">
+			<img src="../img/banner_01.jpg" class="img">
+		</li>
+		<li class="fav hov_ani">
+			<img src="../img/banner_02.jpg" class="img">
+		</li>
+	</ul>
+	<!-- woman 상품 / .womans -->
+	<div class="prd_wrap wrap" id="womans">
+		<div class="prd_tits clear">
+			<div class="prd_tit">
+				<h2>SKINCARE</h2>
+				<span>PAND-PICKED ARRIVALS FROM THE BEST DESIGNER</span>
+			</div>
+			<div class="prd_bts">
+				<div class="ghost_bt fl">
+					<div></div>
+					<span>GREEN TEA</span>
+				</div>
+				<div class="ghost_bt fl">
+					<div></div>
+					<span>SUPER FOOD</span>
+				</div>
+				<div class="ghost_bt fl">
+					<div></div>
+					<span>TRUECARE</span>
+				</div>
+			</div>
+		</div>
+		<div class="prd_conts" id="woman">
+			<div class="spinner"><i class="fa fa-spinner fa-spin"></i></div>
+		</div>
+	</div>
+	<!-- middel Banner/ .mid_bans -->
+	<div class="mid_bans wrap clear">
+		<div>
+			<div class="hov_ani"><img src="../img/m_banner02.jpg" class="img"></div>
+			<div class="hov_ani"><img src="../img/m_banner03.jpg" class="img"></div>
+		</div>
+		<div>
+			<div class="hov_ani"><img src="../img/m_banner01.jpg" class="img"></div>
+		</div>
+		<div>
+			<div class="hov_ani"><img src="../img/m_banner04.jpg" class="img"></div>
+			<div class="hov_ani"><img src="../img/m_banner05.jpg" class="img"></div>
+		</div>
+	</div>
+	<!-- man 상품 / .mans -->
+	<div class="prd_wrap wrap" id="mans">
+		<div class="prd_tits clear">
+			<div class="prd_tit">
+				<h2>COLOR MAKEUP</h2>
+				<span>PAND-PICKED ARRIVALS FROM THE BEST DESIGNER</span>
+			</div>
+			<div class="prd_bts">
+				<div class="ghost_bt fl">
+					<div></div>
+					<span>BEST</span>
+				</div>
+				<div class="ghost_bt fl">
+					<div></div>
+					<span>NEW</span>
+				</div>
+				<div class="ghost_bt fl">
+					<div></div>
+					<span>HOT</span>
+				</div>
+			</div>
+		</div>
+		<div class="prd_conts" id="man">
+			<div class="spinner"><i class="fa fa-spinner fa-spin"></i></div>
+		</div>
+	</div>
+	<!-- POSTS / .apis -->
+	<div class="apis clear wrap">
+		<div class="posts">
+			<h5>ABOUT</h5>
+			<h3><img src="../img/logo2.png"></h3>
+			<ul>
+				<li class="post">
+					<ul>
+						<li class="post_sns"><span class="fa fa-facebook-official opa_in"></span><span class="fa fa-youtube opa_in"></span><span class="fa fa-instagram opa_in"></span>
+						
+						<li></li></li>
+
+						<li><i class="fa fa-building-o"></i>대표이사 김영목</li>
+						<li>(주)이니스프리 서울특별시 용산구 한강대로 100(한강로2가) 7층 이니스프리</li>
+						
+						<li>사업자 등록번호 106-86-68127</li>
+						
+						<li class="rt_arrow bt_more">사업자 정보 확인</li>
+					</ul>
+				</li>
+				<li class="post">
+					<ul>
+						<li>고객센터</li>
+						<li><i class="fa fa-phone"></i>080-380-0114</li>
+					<li class="rt_arrow bt_more">오시는 길</li>
+					</ul>
+				</li>
+			</ul>
+		</div>
+		<div class="customers hand">
+			<h5>온라인전용 제품 만나보세요</h5>
+			<h3>ONLINE ONLY</h3>
+			<div class="c_wrap">
+				<ul class="c_slide">
+					<li class="customer clear auto_hei">
+						<div><img src="../img/best_01.png" class="img"></div>
+						<ul>
+							<li>쉬머 하이라이터 6g
+							</li>
+							<li>판매가</li>
+							<li><a href="#">10,000원</a></li>
+						</ul>
+					</li>
+					<li class="customer clear">
+						<div><img src="../img/best_02.png" class="img"></div>
+						<ul>
+							<li>올리브 & 그린티 핸드크림 50mL
+						</br>[1+1 / 한정수량]
+							</li>
+							<li>판매가</li>
+							<li><a href="#">6,000원</a></li>
+						</ul>
+					</li>
+					<li class="customer clear">
+						<div><img src="../img/best_03.png" class="img"></div>
+						<ul>
+							<li>진액 캡슐 팩 10mL
+							</li>
+							<li>판매가</li>
+							<li><a href="#">5,000원</a></li>
+						</ul>
+					</li>
+				</ul>
+			</div>
+		</div>
+
+		<!-- <div class="customers">
+			<h5>TESTIMONIALS FROM HAPPY CUSTOMERS</h5>
+			<h3>TESTIMONIALS</h3>
+			<div class="c_wrap">
+				<ul class="c_slide">
+					<li class="customer clear">
+						<div><img src="../img/avatar-1.jpg" class="img"></div>
+						<ul>
+							<li>This exhibition brings together paintings by five artists—Nina Chanel Abney, Mathew Cerletty, Jamian Juliano-Villani, This exhibition brings together paintings by five artists—Nina Chanel Abney, Mathew Cerletty, Jamian Juliano-Villani,...
+							</li>
+							<li>Machiel Husiman</li>
+							<li>AUSTRALIA</li>
+						</ul>
+					</li>
+					<li class="customer clear">
+						<div><img src="../img/avatar-2.jpg" class="img"></div>
+						<ul>
+							<li>This exhibition brings together paintings by five artists—Nina Chanel Abney, Mathew Cerletty, Jamian Juliano-Villani, This exhibition brings together paintings by five artists—Nina Chanel Abney, Mathew Cerletty, Jamian Juliano-Villani,...
+							</li>
+							<li>Machiel Husiman</li>
+							<li>AUSTRALIA</li>
+						</ul>
+					</li>
+					<li class="customer clear">
+						<div><img src="../img/avatar-3.jpg" class="img"></div>
+						<ul>
+							<li>This exhibition brings together paintings by five artists—Nina Chanel Abney, Mathew Cerletty, Jamian Juliano-Villani, This exhibition brings together paintings by five artists—Nina Chanel Abney, Mathew Cerletty, Jamian Juliano-Villani,...
+							</li>
+							<li>Machiel Husiman</li>
+							<li>AUSTRALIA</li>
+						</ul>
+					</li>
+				</ul>
+			</div>
+		</div> -->
+	</div>
+	<!-- 관련로고 / .brands -->
+
+	<ul class="brands wrap clear">
+		<li><h3>지금 <strong>핫한</strong> 제품</h3></li>
+		<li><img src="../img/new01.png" class="opa_in img hand"></li>
+		<li><img src="../img/new02.png" class="opa_in img hand"></li>
+		<li><img src="../img/new03.png" class="opa_in img hand"></li>
+		<li><img src="../img/new04.png" class="opa_in img hand"></li>
+		<li><img src="../img/new05.png" class="opa_in img hand"></li>
+		<li><img src="../img/new06.png" class="opa_in img hand"></li>
+	</ul>
+	<!-- 관련링크 / .links -->
+	<ul class="links clear">
+		<li class="hov_ani"><img src="../img/banner_03.jpg" class="img"></li>
+		<li class="hov_ani"><img src="../img/banner_04.jpg" class="img"></li>
+		<li class="hov_ani"><img src="../img/banner_05.jpg" class="img"></li>
+	</ul>
+	<!-- footer / .footers -->
+	<footer>
+		<ul class="footers clear wrap">
+			<li class="footer">
+				<h5>SHOPPING</h5>
+				<ul>
+					<li><a href="#">온라인핫딜</a></li>
+					<li><a href="#">베스트셀러</a></li>
+					<li><a href="#">제품리뷰</a></li>
+				</ul>
+			</li>
+			<li class="footer">
+				<h5>EVENT</h5>
+				<ul>
+					<li><a href="#">진행중인 이벤트</a></li>
+					<li><a href="#">쇼핑 혜택</a></li>
+					<li><a href="#">당첨자 발표</a></li>
+				</ul>
+			</li>
+			<li class="footer">
+				<h5>ABOUT</h5>
+				<ul>
+					<li><a href="#">이니스프리 소개</a></li>
+					<li><a href="#">My Account</a></li>
+				
+				</ul>
+			</li>
+			<li class="footer">
+				<h5>고객센터</h5>
+				<ul>
+					<li><a href="#">자주하는 질문</a></li>
+					<li><a href="#">공지사항</a></li>
+					<li><a href="#">매장안내</a></li>
+				</ul>
+			</li>
+		</ul>
+	</footer>
+	<div class="copys wrap clear">
+		<div class="copy">COPYRIGHT © 2018 WPBINGO. ALL RIGHTS RESERVED.</div>
+		<div class="payment"><img src="../img/payment.png"></div>
+	</div>
+
+
 	<!-- 오른쪽 날개 / rt_wings -->
 	<div class="modals rt_bg"></div>
 	<div class="modals rt_cont">
 		<span class="fa fa-close"></span>
 		<ul class="mypages">
-			<li>MY ACCOUNT</li>
-			<li>CHECKOUT</li>
+			<li>MYPAGE</li>
+			<li>MEMBERSHIP</li>
 			<li>WISHLIST</li>
 		</ul>
 		<div class="country">
@@ -74,7 +354,13 @@
 			<span class="w3-badge w3-light-grey"><img src="../img/arab.jpg"></span>
 		</div>
 	</div>
+	<!-- Top버튼 / .tops -->
+	<div class="tops">
+		<i class="fa fa-arrow-up"></i>
+	</div>
+
 	<script src="https://www.gstatic.com/firebasejs/5.7.3/firebase.js"></script>
 	<script src="../js/main.js"></script>
 </body>
+
 </html>

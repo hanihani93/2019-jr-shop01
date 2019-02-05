@@ -1,0 +1,134 @@
+{
+	"cate": "man",
+	"all":{
+		"latest":[
+			{
+				"tit": "트윙클 밤 1.5g",
+				"img1": "../img/color_01.png",
+				"img2": "../img/color01_1.jpg",
+				"star": 4,
+				"price": "<span>9000원</span>",
+				"sale": false,
+				"hot": true,
+				"link": "../test/test.html",
+				"target": "_blank"
+			},{
+				"tit": "꽃물 톡톡 블러셔 8.5mL",
+				"img1": "../img/color_02.png",
+				"img2": "../img/color02_2.jpg",
+				"star": 3,
+				"price": "<span>9,000원</span>",
+				"sale": true,
+				"hot": false,
+				"link": "../test/test.html",
+				"target": "_blank"
+			},{
+				"tit": "비비드 크리미 틴트",
+				"img1": "../img/color_03.png",
+				"img2": "../img/color03_3.jpg",
+				"star": 3,
+				"price": "<span class=\"del_price\">12,000원</span><span>10,000원</span>",
+				"sale": true,
+				"hot": true,
+				"link": "../test/test.html",
+				"target": "_blank"
+			},{
+				"tit": "젤 라이너",
+				"img1": "../img/color_04.png",
+				"img2": "../img/color04_4.jpg",
+				"star": 5,
+				"price": "<span>6,500원</span>",
+				"sale": false,
+				"hot": false,
+				"link": "../test/test.html",
+				"target": "_blank"
+			}
+		], 
+		"top":[
+			{
+				"tit": "오로라 윤광 픽서 50mL",
+				"img1": "../img/new1.png",
+				"img2": "../img/new1.jpg",
+				"star": 5,
+				"price": "<span>10,000원</span>",
+				"sale": false,
+				"hot": false,
+				"link": "../test/test.html",
+				"target": "_blank"
+			},{
+				"tit": "샤인 오일 틴트 4.5g",
+				"img1": "../img/new2.png",
+				"img2": "../img/new2.jpg",
+				"star": 3,
+				"price": "<span>10,000원</span>",
+				"sale": true,
+				"hot": false,
+				"link": "../test/test.html",
+				"target": "_blank"
+			},{
+				"tit": "마이 립밤",
+				"img1": "../img/new3.png",
+				"img2": "../img/new3.jpg",
+				"star": 3,
+				"price": "<span>10,000원</span>",
+				"sale": true,
+				"hot": true,
+				"link": "../test/test.html",
+				"target": "_blank"
+			},{
+				"tit": "스마트 드로잉 SPF26 PA++ 12mL",
+				"img1": "../img/new4.png",
+				"img2": "../img/new4.jpg",
+				"star": 4,
+				"price": "<span>10,000원</span>",
+				"sale": false,
+				"hot": true,
+				"link": "../test/test.html",
+				"target": "_blank"
+			}
+		], 
+		"best":[
+			{
+				"tit": "스키니 꼼꼼카라 Zero 3.5g",
+				"img1": "../img/sale1.png",
+				"img2": "../img/sale1.jpg",
+				"star": 4,
+				"price": "<span>10,000원</span>",
+				"sale": false,
+				"hot": true,
+				"link": "../test/test.html",
+				"target": "_blank"
+			},{
+				"tit": "트윙클 글리터 2.7g",
+				"img1": "../img/sale2.png",
+				"img2": "../img/sale2.jpg",
+				"star": 3,
+				"price": "<span>8,000원</span>",
+				"sale": true,
+				"hot": false,
+				"link": "../test/test.html",
+				"target": "_blank"
+			},{
+				"tit": "제주 컬러 피커 올웨이즈 뉴 오토 라이너",
+				"img1": "../img/sale3.png",
+				"img2": "../img/sale3.jpg",
+				"star": 5,
+				"price": "<span>9,000 원</span>",
+				"sale": false,
+				"hot": false,
+				"link": "../test/test.html",
+				"target": "_blank"
+			},{
+				"tit": "마이팔레트 마이 아이섀도우",
+				"img1": "../img/sale4.png",
+				"img2": "../img/sale4.jpg",
+				"star": 3,
+				"price": "<span>5,500원</span>",
+				"sale": true,
+				"hot": true,
+				"link": "../test/test.html",
+				"target": "_blank"
+			}
+		]
+	}
+}

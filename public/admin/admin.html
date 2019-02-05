@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="ko">
-
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1, maximum-scale=1">
@@ -16,21 +15,10 @@
 	<script src="../js/imagesloaded.pkgd.min.js"></script>
 	<script src="../js/masonry.pkgd.min.js"></script>
 	<script src="../js/bootstrap.min.js"></script>
+	<script src="../js/w3.js"></script>
 </head>
 <body>
-	<!-- 상단 네비 / top_navs -->
-	<div class="top_navs wrap clear">
-		<div class="logo"><img src="../img/logo.png"></div>
-	</div>
-	<!-- 네비게이션 -->
-	<div class="navs">
-		<ul>
-			<li>HOME</li>
-			<li>SHOP</li>
-			<li>BLOG</li>
-			<li>PORTFOLIO</li>
-		</ul>
-	</div>
+	<div w3-include-html="header.html"></div>
 	<div class="page" id="page1">
 		<div>
 			<input type="text" name="title1" id="title1" class="w3-input w3-border w3-show-inline-block" placeholder="title">
@@ -41,13 +29,8 @@
 			</select>
 			<button type="button" id="bt1_save" class="w3-indigo w3-button">등록</button>
 		</div>
-		<ul id="homes">
-
-		</ul>
+		<ul id="homes"></ul>
 	</div>
-	<div class="page" id="page2"></div>
-	<div class="page" id="page3"></div>
-	<div class="page" id="page4"></div> 
 	<script src="https://www.gstatic.com/firebasejs/5.7.3/firebase.js"></script>
 	<script src="../js/admin.js"></script>
 </body>
